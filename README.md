@@ -58,3 +58,15 @@ src/
 ## License
 
 This project is for educational/demo
+
+### Activity 4 sample Image 
+
+![alt text](compositionapi.PNG)
+
+### Activity 5 sample Image 
+
+![alt text](act5.PNG)
+
+### Activity 6 sample Image
+
+![alt text](act6.PNG)
