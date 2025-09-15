@@ -55,9 +55,9 @@ src/
 - To change global styles, edit `src/assets/main.css`.
 - To update component styles, edit the `<style lang="scss" scoped>` block in `HomeView.vue`.
 
-## License
+## Output Every Activity
 
-This project is for educational/demo
+This project is for educational purposes/demonstrtion.
 
 ### Activity 4 sample Image 
 
@@ -70,3 +70,7 @@ This project is for educational/demo
 ### Activity 6 sample Image
 
 ![alt text](act6.PNG)
+
+### Activity 7 sample Image
+
+![alt text](activity7.PNG)
