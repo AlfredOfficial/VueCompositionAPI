@@ -73,4 +73,4 @@ This project is for educational purposes/demonstrtion.
 
 ### Activity 7 sample Image
 
-![alt text](activity7.PNG)
+![alt text](activity7-1.PNG)
