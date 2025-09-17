@@ -15,8 +15,11 @@ A simple Vue 3 project demonstrating the use of the Composition API to display a
 src/
   assets/
     main.css         # Global styles and font import
+  stores/
+    (Pinia stores)   # State management files for Pinia
   views/
     HomeView.vue     # Main blog post view with SCSS styling
+db.json              # JSON Server database file
 ```
 
 ## Setup
@@ -39,7 +42,13 @@ src/
    npm run dev
    ```
 
-4. **Open your browser**
+4. **Install JSON-SERVER
+
+   ```
+   npm install -g json-server
+   ```
+
+5. **Open your browser**
 
    Visit [http://localhost:5173](http://localhost:5173) (or the port shown in your terminal).
 
@@ -78,3 +87,7 @@ This project is for educational purposes/demonstrtion.
 ### Activity 8 sample Image
 
 ![alt text](activity8.PNG)
+
+### Summary of this Activity
+
+This project is a simple Vue 3 blog application that demonstrates the use of the Composition API along with JSON Server for backend data management. Users can add new blog posts, delete existing ones, and save (bookmark) their favorite posts. The application also features filtering functionality to easily find specific posts and arranges all posts in ascending order by date or another chosen field. With a clean interface styled using SCSS and Google Fonts, this project provides a practical example of building a modern, interactive blog with Vue 3 and a mock REST API.
