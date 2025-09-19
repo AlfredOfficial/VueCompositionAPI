@@ -23,7 +23,7 @@ const postFilter = () => {
         <h4>{{ showSaved === 'all'? 'All Posts' : 'Saved Posts' }}</h4>
         <span v-show="postStore.loading" class="material-icons">cached</span>
       </div>
-      <button @click="postFilter">Show saved Posts</button>
+      <button @click="postFilter">Filter Posts</button>
     </div>
 
     <!-- error message -->

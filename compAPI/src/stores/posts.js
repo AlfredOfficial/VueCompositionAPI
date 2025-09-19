@@ -36,14 +36,12 @@ actions: {
 
     addPost(post) {
         const newPost = {
-            id: this.posts.length + 1,
             title: post.title,
             body: post.body,
             name: 'Alfred Orapa',
             date: new Date().toLocaleDateString(),
             saved: false
-        }
-        this.posts.push(newPost)
+        };
 
         fetch('http://localhost:3000/posts', {
             method: 'POST',
@@ -51,7 +49,11 @@ actions: {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify(newPost)
-        }).catch(error => console.log(error))
+        })
+        .then(() => {
+            this.getPosts(); // Refresh posts to get the new one with correct id
+        })
+        .catch(error => console.log(error));
     },
     // delete a post method
     deletePost(id) {
@@ -74,4 +76,3 @@ actions: {
     }
 }
 })
-    

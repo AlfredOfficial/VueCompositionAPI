@@ -26,13 +26,13 @@ const submit = () => {
 <template>
     <Wrapper>
         <form @submit.prevent="submit">
-            <h3>Add a New Post</h3>
+            <h3>How's your'e day?</h3>
             <div>
-                <label>Post Title</label>
+                <label>Add emotions</label>
                 <input type="text" v-model="post.title"/>
             </div>
             <div>
-                <label>Post Content</label>
+                <label>Today's Experience</label>
                 <textarea rows="5" v-model="post.body"></textarea>
             </div>
             <div>
